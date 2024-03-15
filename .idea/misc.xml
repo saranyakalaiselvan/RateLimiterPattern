@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/AddressServiceExceptionHandling/pom.xml" />
         <option value="$PROJECT_DIR$/EmployeeServiceExceptionHandling/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeService/pom.xml" />
+        <option value="$PROJECT_DIR$/AddressServiceRateLimiter/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeServiceRateLimiter/pom.xml" />
       </list>
     </option>
   </component>

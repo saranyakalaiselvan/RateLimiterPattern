@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MicroservicesExceptionHandling.iml" filepath="$PROJECT_DIR$/.idea/MicroservicesExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RateLimiterPattern.iml" filepath="$PROJECT_DIR$/.idea/RateLimiterPattern.iml" />
     </modules>
   </component>
 </project>

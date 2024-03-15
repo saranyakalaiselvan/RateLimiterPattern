@@ -1,0 +1,6 @@
+[submodule "EmployeeServiceRateLimiter"]
+	path = EmployeeServiceRateLimiter
+	url = https://github.com/saranyakalaiselvan/EmployeeServiceRateLimiter
+[submodule "AddressServiceRateLimiter"]
+	path = AddressServiceRateLimiter
+	url = https://github.com/saranyakalaiselvan/AddressServiceRateLimiter
