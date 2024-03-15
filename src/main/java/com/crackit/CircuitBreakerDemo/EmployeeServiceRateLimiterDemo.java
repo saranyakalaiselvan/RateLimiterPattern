@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class CircuitBreakerDemoApplication {
+public class EmployeeServiceRateLimiterDemo {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CircuitBreakerDemoApplication.class, args);
+		SpringApplication.run(EmployeeServiceRateLimiterDemo.class, args);
 	}
 
 }

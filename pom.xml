@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.crackit</groupId>
-	<artifactId>CircuitBreakerDemo</artifactId>
+	<artifactId>EmployeeService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CircuitBreakerDemo</name>
 	<description>Demo project for Circuit Breakers</description>

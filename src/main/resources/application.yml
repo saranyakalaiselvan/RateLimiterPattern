@@ -15,3 +15,24 @@ spring:
   h2:
     console:
       enabled:  true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health
+  health:
+    ratelimiters:
+      enabled: true
+
+resilience4j:
+  ratelimiter:
+    instances:
+      address-service:
+        limit-for-period: 1
+        limit-refresh-period: 15s
+        timeout-duration: 1s
+        register-health-indicator: true
+
