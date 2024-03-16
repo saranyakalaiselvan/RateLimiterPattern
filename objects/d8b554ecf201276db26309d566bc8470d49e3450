@@ -1,0 +1,24 @@
+[module "c786d861-8513-3b9f-8958-c3501da3d09d"]
+	conflict = request-pull
+	path = AddressRateLimiter
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/772469459
+[module "bbf165b2-e3cc-3e8a-9589-4b7fbc147a1f"]
+	conflict = request-pull
+	path = EmployeeRateLimiter
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/772469631
+[map "cc1214aa-d6b1-37d8-ba14-38fa579d3520"]
+	object = 0b53036b486c1508d7afbea9f54417a7b4650750
+	path = AddressRateLimiter
+	stage = sync
+	type = extract module
+[map "13130dd2-753d-3e45-ad6b-da08c7629618"]
+	object = dd6ce8de03434ec5e5bd62f645ba45b92b5f9a54
+	path = EmployeeRateLimiter
+	stage = sync
+	type = extract module
